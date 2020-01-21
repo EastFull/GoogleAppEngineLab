@@ -10,7 +10,7 @@ from fastai.vision import *
 
 model_file_url = 'https://www.dropbox.com/s/njd726x4h7fgy60/big_cat.pth?raw=1'
 model_file_name = 'model'
-classes = ['tiger', 'lion']
+classes = ['lion', 'tiger']
 path = Path(__file__).parent
 
 app = Starlette()
